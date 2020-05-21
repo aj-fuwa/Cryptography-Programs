@@ -6,7 +6,7 @@
 '''
 
 # section 1: get the cipher text
-w_txt = "C:\\Users\\adity\\Downloads\\W-File.txt"
+w_txt = "C:\\Users\\dell\\Downloads\\encrypted_vig.txt"
 fptr = open(w_txt, "r")
 cipher_text = fptr.read()               # cipher_text holds the encrypted text
 cipher_text_len = len(cipher_text)      # cipher_text_len holds the length of the encrypted text
