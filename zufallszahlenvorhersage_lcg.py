@@ -8,11 +8,11 @@ import gmpy2
 
 # Step 1: Get the random numbers
 f_ptr = open('C:\\path\\to\\file.txt')    # open the file
-                                                                        # where random number sequence is stored
+                                          # where random number sequence is stored
 random_list = f_ptr.readlines()     # store the numbers in random_list
 
 random_list = [int(ran_seq) for ran_seq in random_list] # to convert the numbers from
-                                                # string to integer format
+                                                        # string to integer format
 
 print("The given random number sequence is:")
 print(random_list)
