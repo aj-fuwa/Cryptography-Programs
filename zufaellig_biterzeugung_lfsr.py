@@ -74,7 +74,7 @@ for main_loop_index in range(num_output_bits):
         next_state_ff.append(current_state_ff[inner_index])
     del next_state_ff[-1]
 
-    # uncomment lines 81 and 83 to see all state values of the flipflops
+    # uncomment lines 78 and 80 to see all state values of the flipflops
     #print("Next state:", next_state_ff, "length: ", len(next_state_ff))
     current_state_ff = next_state_ff        # this is the updated current state of flipflops
     #print("New current state is: ", current_state_ff)
