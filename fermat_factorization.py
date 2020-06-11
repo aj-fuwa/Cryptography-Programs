@@ -4,7 +4,7 @@
 # Die Sprache des Programms: Python
 '''
 import math as math
-import sympy as sp
+import sympy as sp          # python library for symbolic mathematics
 ########################################################################################################################
 # Step 1: Input the number n
 n = int(input("Input the number to be factorised (Fermat's Method): "))
