@@ -19,7 +19,7 @@ Steps to follow:
 '''
 ########################################################################################################################
 # Step 1: Input the basic parameters
-txt_file = "/Users/adityajayanti/Desktop/rsa_assignment/RSA_AES_cipher_k.txt"
+txt_file = "/path/to/input/file"
 
 # Step 1.1: Get the Public RSA Key n value (in int)
 pub_rsa_key_n = linecache.getline(txt_file, 1)
