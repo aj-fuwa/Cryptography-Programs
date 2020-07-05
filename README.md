@@ -5,3 +5,4 @@ Basic coding in Python
 3. LFSR Pseudo Random Number Generator (PRNG): zufaellig_biterzeugung_lfsr.py
 4. Fermat's method for factorization: fermat_factorization.py 
 5. RSA-AES Decryption (Python):rsa_ciffer.py (Julia):finding_d_rsa.jl
+6. ECDSA Signature generation: digital_signatur.py
