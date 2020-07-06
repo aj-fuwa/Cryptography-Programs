@@ -6,3 +6,4 @@ Basic coding in Python
 4. Fermat's method for factorization: fermat_factorization.py 
 5. RSA-AES Decryption (Python):rsa_ciffer.py (Julia):finding_d_rsa.jl
 6. ECDSA Signature generation: digital_signatur.py
+7. ECDSA Signature verification: verify_digital_signature.py
